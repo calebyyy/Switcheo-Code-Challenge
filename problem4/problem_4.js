@@ -62,7 +62,7 @@ const abi = [
   }
 ];
 
-const provider = new ethers.providers.JsonRpcProvider('https://bsc-dataseed.binance.org/');
+const provider = new ethers.providers.JsonRpcProvider("https://bsc-dataseed.binance.org/");
 const contractAddress = "0x250b211ee44459dad5cd3bca803dd6a7ecb5d46c";
 const contract = new ethers.Contract('0x250b211ee44459dad5cd3bca803dd6a7ecb5d46c', abi, provider);
 
